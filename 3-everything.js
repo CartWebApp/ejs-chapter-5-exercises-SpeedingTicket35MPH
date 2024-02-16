@@ -1,5 +1,8 @@
-function every(array, test) {
+function every(array, test) { 
+
     // Your code here.
+    return array.every(test)
+    
   }
   
   console.log(every([1, 3, 5], n => n < 10));
@@ -8,3 +11,4 @@ function every(array, test) {
   // → false
   console.log(every([], n => n < 10));
   // → true
+  
